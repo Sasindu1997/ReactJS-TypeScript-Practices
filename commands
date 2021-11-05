@@ -1,0 +1,1 @@
+npx create-react-app <your-app-name> --template redux-typescript
