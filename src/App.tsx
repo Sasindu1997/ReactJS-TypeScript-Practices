@@ -1,15 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import GreetApp from './app/components/basicProps/GreetApp';
+import  GreetApp  from './app/components/basicProps/GreetApp';
+import  MsgApp  from './app/components/advanceProps/MsgApp';
+
 
 function App() {
+
   return (
     <>
       <div className="App">
         Hello world!
       </div>
       <GreetApp />
+      <MsgApp />
     </>
   );
 }
